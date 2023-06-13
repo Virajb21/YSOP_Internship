@@ -1,0 +1,38 @@
+a {
+  color: #2E2E2E;
+  &:hover {
+    color: currentcolor;
+    text-decoration: underline !important;
+  }
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+main {
+  margin-top: 5em;
+  .card-title, .card-title + .text-muted {
+    font-size: 2em;
+  }
+}
+
+.page_name {
+  font-size: 1.45em;
+}
+
+@media (max-width: 992px) {
+  header {
+    font-size: 0.85em;
+  }
+  main {
+    font-size: 0.9em;
+    .card-header {
+      font-size: 0.8em;
+    }
+    .card-title, .card-title + .text-muted {
+      font-size: 0.9em;
+    }
+  }
+}
