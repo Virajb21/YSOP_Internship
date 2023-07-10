@@ -79,10 +79,9 @@ button.primary {
   
   .viewport {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
     background: white;
-    color: #dacff7;
     flex: 1;
     flex-grow: 1;
     border-bottom-left-radius: 5px;

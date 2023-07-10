@@ -58,7 +58,7 @@ const Homepage = () => {
     
     {wdata!={} ? <Card wdata={wdata} query={query}/> : 'Loading...'}
 
-</div>
+    </div>
   )
 }
 

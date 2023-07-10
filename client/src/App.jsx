@@ -5,6 +5,8 @@ import Login from './components/Login';
 import Signup from './components/Signup';
 import Dashboard from "./views/Dashboard";
 import Header from "./components/Header";
+import LandingPage from "./LandingPage";
+import Admin from "./components/Admin";
 
 const App = () => {
   return (
@@ -27,8 +29,10 @@ const App = () => {
                 <Routes>
                     <Route path='/' element={<Signup />} />
                     <Route path="/login" element={<Login />} />
-                    <Route path="/home" element={<Homepage />} />
+                    {/* <Route path="/home" element={<Homepage />} /> */}
                     <Route path="/dashboard" element={<Dashboard />} />
+                    <Route path="/admin" element={<Admin />} />
+                    <Route path="/landing" element={<LandingPage />} />
                 </Routes>
         </div>
         </div>
